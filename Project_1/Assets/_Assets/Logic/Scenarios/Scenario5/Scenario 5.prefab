@@ -1,0 +1,101 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &177978
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 419016}
+  - 114: {fileID: 11407722}
+  m_Layer: 15
+  m_Name: Scenario 5
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!4 &419016
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 177978}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+--- !u!114 &11407722
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 177978}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e60b21f1980baa64ab62d2fa25478ac7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  game: {fileID: 0}
+  stepTemplates:
+  - {fileID: 11490090, guid: 54d34fada61f290459c92c05594410fb, type: 2}
+  - {fileID: 11490090, guid: 15d3062e033d9cc4693c03ae247cd698, type: 2}
+  - {fileID: 11490090, guid: db74eeb0df063ee42b558f11b4e72871, type: 2}
+  - {fileID: 11490090, guid: b997bed716edcc44a80ad2a9af3b596f, type: 2}
+  - {fileID: 11490090, guid: 6d25aa4781257d948a156151b84d1b1f, type: 2}
+  - {fileID: 11490090, guid: e7caf8cc1e3f6324eb42b948365ae63a, type: 2}
+  - {fileID: 11490090, guid: b29da684e1fc07e40824f42e7ead8ece, type: 2}
+  steps: []
+  titleCardAnim: {fileID: 0}
+  usesAmbientAnimation: 0
+  PhoneCanvas: {fileID: 195582, guid: 0f4999959ea0c3246917abcc236e6bbb, type: 2}
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 0}
+      propertyPath: stepTemplates.Array.size
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: stepTemplates.Array.data[3]
+      value: 
+      objectReference: {fileID: 11490090, guid: b997bed716edcc44a80ad2a9af3b596f,
+        type: 2}
+    - target: {fileID: 0}
+      propertyPath: stepTemplates.Array.data[4]
+      value: 
+      objectReference: {fileID: 11490090, guid: 6d25aa4781257d948a156151b84d1b1f,
+        type: 2}
+    - target: {fileID: 0}
+      propertyPath: stepTemplates.Array.data[5]
+      value: 
+      objectReference: {fileID: 11490090, guid: 8642cde379feeaf4ead88342ce5688d0,
+        type: 2}
+    - target: {fileID: 0}
+      propertyPath: stepTemplates.Array.data[8]
+      value: 
+      objectReference: {fileID: 11490090, guid: 8642cde379feeaf4ead88342ce5688d0,
+        type: 2}
+    - target: {fileID: 0}
+      propertyPath: m_Layer
+      value: 15
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: usesAmbientAnimation
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: PhoneCanvas
+      value: 
+      objectReference: {fileID: 195582, guid: 0f4999959ea0c3246917abcc236e6bbb, type: 2}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 177978}
+  m_IsPrefabParent: 1

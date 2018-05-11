@@ -1,0 +1,158 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &181932
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 476342}
+  - 114: {fileID: 11435258}
+  m_Layer: 12
+  m_Name: Step6 - Cop Car
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &184484
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 454442}
+  - 114: {fileID: 11426472}
+  - 114: {fileID: 11413660}
+  m_Layer: 12
+  m_Name: AptToPoliceSpline
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &454442
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 184484}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 145.2, y: 0, z: -95.1}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 476342}
+  m_RootOrder: 0
+--- !u!4 &476342
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 181932}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 454442}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+--- !u!114 &11413660
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 184484}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 787caf69376854af995d47effa333bce, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sprites: []
+  numParticles: 0
+  duration: 10
+  loopDelay: 0
+  spawnDelayInSeconds: 1
+  burstSpeed: 0.3
+  alphaCurve:
+    serializedVersion: 2
+    m_Curve: []
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  ui3d: 1
+  ui3dMode: 0
+--- !u!114 &11426472
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 184484}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b154883273c2845f39445c8015d81639, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  points:
+  - {x: 1, y: 0, z: 0}
+  - {x: 2, y: 0, z: 0}
+  - {x: -6.5634613, y: 18.769728, z: -4.002846}
+  - {x: -5.5634613, y: 29.092505, z: 4.933853}
+  - {x: -4.5634613, y: 39.415283, z: 13.870552}
+  - {x: -9.655991, y: 39.551704, z: 29.056843}
+  - {x: -8.385391, y: 32.683475, z: 36.178192}
+  - {x: -7.114792, y: 25.815247, z: 43.29954}
+  - {x: -7.8401947, y: 19.33031, z: 41.61488}
+  - {x: -6.8401947, y: 16.317142, z: 41.823296}
+  - {x: -5.8401947, y: 13.303974, z: 42.03171}
+  - {x: -4.8401947, y: 0.44514748, z: 41.823296}
+  - {x: -3.8401947, y: 0.4451475, z: 41.823296}
+  modes: 0000000002000000020000000200000002000000
+  loop: 0
+--- !u!114 &11435258
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 181932}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9c740847792e047339f15ed5cb244b9b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  zoomType: 1
+  zoomToArea: Park
+  zoomDelay: 0
+  followObjectName: 
+  unparentObjects: []
+  enableNextAfterSeconds: 15
+  timeOfDay: 0
+  timeOfDayDelay: 0
+  layerNotToMask:
+    serializedVersion: 2
+    m_Bits: 4096
+  scenario: {fileID: 0}
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 0}
+      propertyPath: m_Layer
+      value: 12
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: enableNextAfterSeconds
+      value: 15
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: layerNotToMask.m_Bits
+      value: 4096
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 181932}
+  m_IsPrefabParent: 1

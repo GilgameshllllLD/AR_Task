@@ -1,0 +1,99 @@
+fileFormatVersion: 2
+guid: 52f9c348c482f244dbec2e503e6a98b0
+timeCreated: 1455135949
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: GradientArc
+    21300002: WhiteArc
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: GradientArc
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 9
+        width: 241
+        height: 120
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 76.5, y: 60}
+        - {x: -34.5, y: 60}
+        - {x: -72.5, y: 49}
+        - {x: -97.5, y: 21}
+        - {x: -118.5, y: -26}
+        - {x: -118.5, y: -60}
+        - {x: 120.5, y: -60}
+        - {x: 120.5, y: -14}
+        - {x: 93.5, y: 56}
+    - name: WhiteArc
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 133
+        width: 238
+        height: 120
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -56, y: 60}
+        - {x: -81, y: 40}
+        - {x: -119, y: -16}
+        - {x: -119, y: -60}
+        - {x: 119, y: -60}
+        - {x: 119, y: -30}
+        - {x: 112, y: 4}
+        - {x: 77, y: 37}
+        - {x: 57, y: 60}
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

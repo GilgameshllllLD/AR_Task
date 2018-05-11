@@ -1,0 +1,58 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &172188
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 403362}
+  - 114: {fileID: 11474974}
+  m_Layer: 8
+  m_Name: Statues
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &403362
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 172188}
+  m_LocalRotation: {x: 0, y: -0.25881886, z: 0, w: 0.9659259}
+  m_LocalPosition: {x: 252.7, y: 0, z: 9.499999}
+  m_LocalScale: {x: 2.8350325, y: 2.835032, z: 2.835032}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+--- !u!114 &11474974
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 172188}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 50917409f60b34a9b9472ccd68cf0d20, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  statueTemplates:
+  - {fileID: 11417740, guid: 891e9242c52c5417db177399b6e14172, type: 2}
+  - {fileID: 11473168, guid: 0c00a97f4df454c55a9f14ff3ff97077, type: 2}
+  - {fileID: 11414504, guid: 093798a07597e41fdbba17e032c53a35, type: 2}
+  - {fileID: 11401476, guid: b981c56e987874944baad3b82a4f8c8c, type: 2}
+  - {fileID: 11458488, guid: 909a46f086c2d4ee4a8aae37f193357b, type: 2}
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 172188}
+  m_IsPrefabParent: 1

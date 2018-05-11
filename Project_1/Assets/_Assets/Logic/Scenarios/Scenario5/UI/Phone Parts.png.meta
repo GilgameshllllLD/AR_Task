@@ -1,0 +1,94 @@
+fileFormatVersion: 2
+guid: 50d079ff0fff21d418a368c380581d3f
+timeCreated: 1455212077
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: PhoneFrame
+    21300002: Button
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: PhoneFrame
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 416
+        width: 71
+        height: 96
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 34, y: 54, z: 32, w: 29}
+      outline:
+      - - {x: -27.5, y: 48}
+        - {x: -34.5, y: 47}
+        - {x: -34.5, y: -48}
+        - {x: 35.5, y: -48}
+        - {x: 35.5, y: 48}
+    - name: Button
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 476
+        width: 37
+        height: 35
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 11.5, y: 16.5}
+        - {x: -17.5, y: 16.5}
+        - {x: -18.5, y: 13.5}
+        - {x: -18.5, y: -16.5}
+        - {x: -14.5, y: -17.5}
+        - {x: 16.5, y: -17.5}
+        - {x: 18.5, y: -14.5}
+        - {x: 18.5, y: 11.5}
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

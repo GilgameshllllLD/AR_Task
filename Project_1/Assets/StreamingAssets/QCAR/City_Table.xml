@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QCARConfig xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="qcar_config.xsd">
+  <Tracking>
+    <ImageTarget name="top_3x5" size="14.200000 11.500000" />
+    <ImageTarget name="top_3x4" size="14.200000 11.500000" />
+    <ImageTarget name="top_3x3" size="14.200000 11.500000" />
+    <ImageTarget name="top_3x2" size="14.200000 11.500000" />
+    <ImageTarget name="top_3x1" size="14.200000 11.500000" />
+    <ImageTarget name="top_2x5" size="14.200000 11.500000" />
+    <ImageTarget name="top_2x4" size="14.200000 11.500000" />
+    <ImageTarget name="top_2x3" size="14.200000 11.500000" />
+    <ImageTarget name="top_2x2" size="14.200000 11.500000" />
+    <ImageTarget name="top_2x1" size="14.200000 11.500000" />
+    <ImageTarget name="top_1x5" size="14.200000 11.500000" />
+    <ImageTarget name="top_1x4" size="14.200000 11.500000" />
+    <ImageTarget name="top_1x3" size="14.200000 11.500000" />
+    <ImageTarget name="top_1x2" size="14.200000 11.500000" />
+    <ImageTarget name="top_1x1" size="14.200000 11.500000" />
+    <ImageTarget name="right_3" size="4.506667 11.500000" />
+    <ImageTarget name="right_2" size="4.506667 11.500000" />
+    <ImageTarget name="right_1" size="4.506667 11.500000" />
+    <ImageTarget name="left_3" size="4.506667 11.500000" />
+    <ImageTarget name="left_2" size="4.506667 11.500000" />
+    <ImageTarget name="left_1" size="4.506667 11.500000" />
+    <ImageTarget name="front_5" size="14.200000 4.506667" />
+    <ImageTarget name="front_4" size="14.200000 4.506667" />
+    <ImageTarget name="front_3" size="14.200000 4.506667" />
+    <ImageTarget name="front_2" size="14.200000 4.506667" />
+    <ImageTarget name="front_1" size="14.200000 4.506667" />
+    <ImageTarget name="back_5" size="14.200000 4.506667" />
+    <ImageTarget name="back_4" size="14.200000 4.506667" />
+    <ImageTarget name="back_3" size="14.200000 4.506667" />
+    <ImageTarget name="back_2" size="14.200000 4.506667" />
+    <ImageTarget name="back_1" size="14.200000 4.506667" />
+ 
+    <MultiTarget name="Table_Calibrated">
+        <Part name="top_1x1" translation="-28.4 11.5 0" rotation="AD: 1 0 0 0"/>
+        <Part name="top_1x2" translation="-14.2 11.5 0" rotation="AD: 1 0 0 0"/>
+        <Part name="top_1x3" translation="0 11.5 0" rotation="AD: 1 0 0 0"/>
+        <Part name="top_1x4" translation="14.2 11.5 0" rotation="AD: 1 0 0 0"/>
+        <Part name="top_1x5" translation="28.4 11.5 0" rotation="AD: 1 0 0 0"/>
+
+        <Part name="top_2x1" translation="-28.4 0 0" rotation="AD: 1 0 0 0"/>
+        <Part name="top_2x2" translation="-14.2 0 0" rotation="AD: 1 0 0 0"/>
+        <Part name="top_2x3" translation="0 0 0" rotation="AD: 1 0 0 0"/>
+        <Part name="top_2x4" translation="14.2 0 0" rotation="AD: 1 0 0 0"/>
+        <Part name="top_2x5" translation="28.4 0 0" rotation="AD: 1 0 0 0"/>
+
+        <Part name="top_3x1" translation="-28.4 -11.5 0" rotation="AD: 1 0 0 0"/>
+        <Part name="top_3x2" translation="-14.2 -11.5 0" rotation="AD: 1 0 0 0"/>
+        <Part name="top_3x3" translation="0 -11.5 0" rotation="AD: 1 0 0 0"/>
+        <Part name="top_3x4" translation="14.2 -11.5 0" rotation="AD: 1 0 0 0"/>
+        <Part name="top_3x5" translation="28.4 -11.5 0" rotation="AD: 1 0 0 0"/>
+
+        <Part name="back_1" translation="-28.3480145 19.21384 -2.125" rotation="AD: 1 0 0 -70.56"/>
+        <Part name="back_2" translation="-14.1480145 19.21384 -2.125" rotation="AD: 1 0 0 -70.56"/>
+        <Part name="back_3" translation=".0519855 19.21384 -2.125" rotation="AD: 1 0 0 -70.56"/>
+        <Part name="back_4" translation="14.2519855 19.21384 -2.125" rotation="AD: 1 0 0 -70.56"/>
+        <Part name="back_5" translation="28.4519855 19.21384 -2.125" rotation="AD: 1 0 0 -70.56"/>
+
+        <Part name="front_1" translation="-28.2535869 -18.69512 -2.125" rotation="AD: 1 0 0 70.56"/>
+        <Part name="front_2" translation="-14.0535869 -18.69512 -2.125" rotation="AD: 1 0 0 70.56"/>
+        <Part name="front_3" translation=".1464131 -18.69512 -2.125" rotation="AD: 1 0 0 70.56"/>
+        <Part name="front_4" translation="14.346413 -18.69512 -2.125" rotation="AD: 1 0 0 70.56"/>
+        <Part name="front_5" translation="28.546413 -18.69512 -2.125" rotation="AD: 1 0 0 70.56"/>
+
+        <Part name="left_1" translation="-36.97859 11.688245 -2.125" rotation="AD: 0 1 0 -70.56"/>
+        <Part name="left_2" translation="-36.97859 .188245 -2.125" rotation="AD: 0 1 0 -70.56"/>
+        <Part name="left_3" translation="-36.97859 -11.311755 -2.125" rotation="AD: 0 1 0 -70.56"/>
+
+        <Part name="right_1" translation="37.12082 11.771909 -2.125" rotation="AD: 0 1 0 70.56"/>
+        <Part name="right_2" translation="37.12082 .271909 -2.125" rotation="AD: 0 1 0 70.56"/>
+        <Part name="right_3" translation="37.12082 -11.228091 -2.125" rotation="AD: 0 1 0 70.56"/>
+    </MultiTarget>
+
+    <MultiTarget name="TableTop">
+        <Part name="top_1x1" translation="-28.4 11.5 0" rotation="AD: 1 0 0 0"/>
+        <Part name="top_1x2" translation="-14.2 11.5 0" rotation="AD: 1 0 0 0"/>
+        <Part name="top_1x3" translation="0 11.5 0" rotation="AD: 1 0 0 0"/>
+        <Part name="top_1x4" translation="14.2 11.5 0" rotation="AD: 1 0 0 0"/>
+        <Part name="top_1x5" translation="28.4 11.5 0" rotation="AD: 1 0 0 0"/>
+
+        <Part name="top_2x1" translation="-28.4 0 0" rotation="AD: 1 0 0 0"/>
+        <Part name="top_2x2" translation="-14.2 0 0" rotation="AD: 1 0 0 0"/>
+        <Part name="top_2x3" translation="0 0 0" rotation="AD: 1 0 0 0"/>
+        <Part name="top_2x4" translation="14.2 0 0" rotation="AD: 1 0 0 0"/>
+        <Part name="top_2x5" translation="28.4 0 0" rotation="AD: 1 0 0 0"/>
+
+        <Part name="top_3x1" translation="-28.4 -11.5 0" rotation="AD: 1 0 0 0"/>
+        <Part name="top_3x2" translation="-14.2 -11.5 0" rotation="AD: 1 0 0 0"/>
+        <Part name="top_3x3" translation="0 -11.5 0" rotation="AD: 1 0 0 0"/>
+        <Part name="top_3x4" translation="14.2 -11.5 0" rotation="AD: 1 0 0 0"/>
+        <Part name="top_3x5" translation="28.4 -11.5 0" rotation="AD: 1 0 0 0"/>
+    </MultiTarget>
+    
+    <MultiTarget name="TableSides">
+        <Part name="back_1" translation="-28.3480145 19.21384 -2.125" rotation="AD: 1 0 0 -70.56"/>
+        <Part name="back_2" translation="-14.1480145 19.21384 -2.125" rotation="AD: 1 0 0 -70.56"/>
+        <Part name="back_3" translation=".0519855 19.21384 -2.125" rotation="AD: 1 0 0 -70.56"/>
+        <Part name="back_4" translation="14.2519855 19.21384 -2.125" rotation="AD: 1 0 0 -70.56"/>
+        <Part name="back_5" translation="28.4519855 19.21384 -2.125" rotation="AD: 1 0 0 -70.56"/>
+
+        <Part name="front_1" translation="-28.2535869 -18.69512 -2.125" rotation="AD: 1 0 0 70.56"/>
+        <Part name="front_2" translation="-14.0535869 -18.69512 -2.125" rotation="AD: 1 0 0 70.56"/>
+        <Part name="front_3" translation=".1464131 -18.69512 -2.125" rotation="AD: 1 0 0 70.56"/>
+        <Part name="front_4" translation="14.346413 -18.69512 -2.125" rotation="AD: 1 0 0 70.56"/>
+        <Part name="front_5" translation="28.546413 -18.69512 -2.125" rotation="AD: 1 0 0 70.56"/>
+
+        <Part name="left_1" translation="-36.97859 11.688245 -2.125" rotation="AD: 0 1 0 -70.56"/>
+        <Part name="left_2" translation="-36.97859 .188245 -2.125" rotation="AD: 0 1 0 -70.56"/>
+        <Part name="left_3" translation="-36.97859 -11.311755 -2.125" rotation="AD: 0 1 0 -70.56"/>
+
+        <Part name="right_1" translation="37.12082 11.771909 -2.125" rotation="AD: 0 1 0 70.56"/>
+        <Part name="right_2" translation="37.12082 .271909 -2.125" rotation="AD: 0 1 0 70.56"/>
+        <Part name="right_3" translation="37.12082 -11.228091 -2.125" rotation="AD: 0 1 0 70.56"/>
+    </MultiTarget>
+  </Tracking>
+</QCARConfig>

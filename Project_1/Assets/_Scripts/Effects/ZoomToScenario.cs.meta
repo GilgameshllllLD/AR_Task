@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: d20da90b628394899a71df9abe32371a
+timeCreated: 1455752366
+licenseType: Free
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences:
+  - maskPrefab: {fileID: 172412, guid: 692a4529d49b940bfba00c2f0d98e4b4, type: 2}
+  - worldTransform: {instanceID: 0}
+  - sceneTransform: {instanceID: 0}
+  - cityHolder: {instanceID: 0}
+  executionOrder: 100
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

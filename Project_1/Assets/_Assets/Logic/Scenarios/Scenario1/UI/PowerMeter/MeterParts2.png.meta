@@ -1,0 +1,194 @@
+fileFormatVersion: 2
+guid: 99edcb0eb94fb8b48b2d2e3b09201723
+timeCreated: 1454715943
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: Base
+    21300002: Needle
+    21300004: Arc
+    21300006: WhiteBG
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 512
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: Base
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 42
+        width: 469
+        height: 470
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 110.5, y: -210}
+        - {x: 124.5, y: -202}
+        - {x: 130.5, y: -198}
+        - {x: 154.5, y: -180}
+        - {x: 169.5, y: -166}
+        - {x: 180.5, y: -153}
+        - {x: 188.5, y: -144}
+        - {x: 200.5, y: -127}
+        - {x: 206.5, y: -117}
+        - {x: 217.5, y: -94}
+        - {x: 223.5, y: -79}
+        - {x: 226.5, y: -70}
+        - {x: 232.5, y: -46}
+        - {x: 234.5, y: -37}
+        - {x: 234.5, y: 33}
+        - {x: 232.5, y: 51}
+        - {x: 227.5, y: 70}
+        - {x: 218.5, y: 91}
+        - {x: 210.5, y: 109}
+        - {x: 197.5, y: 132}
+        - {x: 186.5, y: 146}
+        - {x: 174.5, y: 159}
+        - {x: 159.5, y: 174}
+        - {x: 151.5, y: 181}
+        - {x: 142.5, y: 189}
+        - {x: 135.5, y: 194}
+        - {x: 116.5, y: 206}
+        - {x: 81.5, y: 223}
+        - {x: 57.5, y: 229}
+        - {x: 43.5, y: 232}
+        - {x: 22.5, y: 235}
+        - {x: -18.5, y: 235}
+        - {x: -28.5, y: 234}
+        - {x: -51.5, y: 230}
+        - {x: -67.5, y: 227}
+        - {x: -91.5, y: 217}
+        - {x: -121.5, y: 202}
+        - {x: -136.5, y: 192}
+        - {x: -156.5, y: 177}
+        - {x: -181.5, y: 150}
+        - {x: -191.5, y: 137}
+        - {x: -201.5, y: 122}
+        - {x: -215.5, y: 94}
+        - {x: -221.5, y: 79}
+        - {x: -224.5, y: 70}
+        - {x: -229.5, y: 51}
+        - {x: -231.5, y: 41}
+        - {x: -234.5, y: 19}
+        - {x: -234.5, y: -19}
+        - {x: -232.5, y: -36}
+        - {x: -230.5, y: -47}
+        - {x: -226.5, y: -68}
+        - {x: -215.5, y: -98}
+        - {x: -203.5, y: -121}
+        - {x: -187.5, y: -143}
+        - {x: -173.5, y: -160}
+        - {x: -150.5, y: -182}
+        - {x: -132.5, y: -195}
+        - {x: -122.5, y: -202}
+        - {x: -97.5, y: -215}
+        - {x: -81.5, y: -223}
+        - {x: -58.5, y: -229}
+        - {x: -40.5, y: -233}
+        - {x: -26.5, y: -235}
+        - {x: 27.5, y: -235}
+        - {x: 35.5, y: -234}
+        - {x: 68.5, y: -228}
+        - {x: 92.5, y: -218}
+    - name: Needle
+      rect:
+        serializedVersion: 2
+        x: 464
+        y: 1
+        width: 47
+        height: 130
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -12.5, y: 65}
+        - {x: -22.5, y: 13}
+        - {x: -22.5, y: -56}
+        - {x: -12.5, y: -65}
+        - {x: 23.5, y: -65}
+        - {x: 23.5, y: 65}
+    - name: Arc
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 5
+        width: 95
+        height: 43
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -44.5, y: -10.5}
+        - {x: -44.5, y: -21.5}
+        - {x: 47.5, y: -21.5}
+        - {x: 47.5, y: -8.5}
+        - {x: 45.5, y: 2.5}
+        - {x: 20.5, y: 17.5}
+        - {x: -7.5, y: 17.5}
+        - {x: -28.5, y: 12.5}
+    - name: WhiteBG
+      rect:
+        serializedVersion: 2
+        x: 283
+        y: 0
+        width: 76
+        height: 43
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 25, y: 21.5}
+        - {x: -24, y: 21.5}
+        - {x: -38, y: 12.5}
+        - {x: -38, y: -21.5}
+        - {x: 38, y: -21.5}
+        - {x: 38, y: -0.5}
+        - {x: 28, y: 18.5}
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

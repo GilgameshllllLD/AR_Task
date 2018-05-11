@@ -1,0 +1,129 @@
+fileFormatVersion: 2
+guid: a43e78096b79994418cff619d98ec4a1
+timeCreated: 1453498540
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: colorLight
+    100002: dooDads
+    100004: helpButton
+    100006: imageSensor
+    100008: RGBA_notification
+    100010: sign_banner
+    100012: sign_street_A
+    100014: sign_street_B
+    100016: //RootNode
+    100018: vlamp_glass2
+    100020: vlamp_post
+    100022: vlamp_glass
+    400000: colorLight
+    400002: dooDads
+    400004: helpButton
+    400006: imageSensor
+    400008: RGBA_notification
+    400010: sign_banner
+    400012: sign_street_A
+    400014: sign_street_B
+    400016: //RootNode
+    400018: vlamp_glass2
+    400020: vlamp_post
+    400022: vlamp_glass
+    2300000: colorLight
+    2300002: dooDads
+    2300004: helpButton
+    2300006: imageSensor
+    2300008: RGBA_notification
+    2300010: sign_banner
+    2300012: sign_street_A
+    2300014: sign_street_B
+    2300016: vlamp_glass2
+    2300018: vlamp_post
+    2300020: vlamp_glass
+    3300000: colorLight
+    3300002: dooDads
+    3300004: helpButton
+    3300006: imageSensor
+    3300008: RGBA_notification
+    3300010: sign_banner
+    3300012: sign_street_A
+    3300014: sign_street_B
+    3300016: vlamp_glass2
+    3300018: vlamp_post
+    3300020: vlamp_glass
+    4300000: vlamp_glass2
+    4300002: colorLight
+    4300004: dooDads
+    4300006: helpButton
+    4300008: imageSensor
+    4300010: RGBA_notification
+    4300012: vlamp_post
+    4300014: sign_banner
+    4300016: sign_street_A
+    4300018: sign_street_B
+    4300020: vlamp_glass
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleRotations: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

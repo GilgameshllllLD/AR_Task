@@ -1,0 +1,109 @@
+fileFormatVersion: 2
+guid: d90cafa285ad6214e8d09455b957f336
+timeCreated: 1453498021
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: police_base
+    100002: police_doors
+    100004: police_lettering
+    100006: police_roof
+    100008: //RootNode
+    100010: police_windows
+    100012: police_windows_flipped
+    100014: Title
+    400000: police_base
+    400002: police_doors
+    400004: police_lettering
+    400006: police_roof
+    400008: //RootNode
+    400010: police_windows
+    400012: police_windows_flipped
+    400014: Title
+    2300000: police_base
+    2300002: police_doors
+    2300004: police_lettering
+    2300006: police_roof
+    2300008: police_windows
+    2300010: police_windows_flipped
+    2300012: Title
+    3300000: police_base
+    3300002: police_doors
+    3300004: police_lettering
+    3300006: police_roof
+    3300008: police_windows
+    3300010: police_windows_flipped
+    3300012: Title
+    4300000: police_roof
+    4300002: police_base
+    4300004: police_windows_flipped
+    4300006: police_windows
+    4300008: police_lettering
+    4300010: police_doors
+    4300012: Title
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleRotations: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 1
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

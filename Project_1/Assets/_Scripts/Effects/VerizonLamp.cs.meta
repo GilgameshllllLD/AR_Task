@@ -1,0 +1,22 @@
+fileFormatVersion: 2
+guid: 178c814588f7946ffb4fc226dc226243
+timeCreated: 1456271019
+licenseType: Free
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences:
+  - onMaterial: {fileID: 2100000, guid: a6f930efb86d1de429549b8df1c0e9fa, type: 2}
+  - notificationEmissiveMaterial: {fileID: 2100000, guid: d45abb142bf664f5b83719f44d49a08c,
+      type: 2}
+  - bannerOnMaterial: {fileID: 2100000, guid: 4c59b3c9406dc458699ff5acb3e1ba64, type: 2}
+  - projectorPrefab: {fileID: 101620, guid: 1ff1c593d85e0404db31d2547a577e33, type: 2}
+  - audioWavesPrefab: {fileID: 119036, guid: 08a6727e91ff944ac8e2c89c30915278, type: 2}
+  - overlayPrefab: {fileID: 122662, guid: ff6627e94f00940bca0995c771a78712, type: 2}
+  - soundOverlayPrefab: {fileID: 167868, guid: 3e8ac24eb6f66432f83a46865a0b0b79, type: 2}
+  - notifyOverlayPrefab: {fileID: 107204, guid: a13ef7df2d5ba4b399469ddd2c2961da,
+      type: 2}
+  executionOrder: 200
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,275 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &100550
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 488964}
+  - 119: {fileID: 11983150}
+  m_Layer: 0
+  m_Name: BlobLightProjector (3)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &159732
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 499824}
+  - 119: {fileID: 11969128}
+  m_Layer: 0
+  m_Name: BuildingsSides (1)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &172434
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 443782}
+  - 119: {fileID: 11993112}
+  m_Layer: 0
+  m_Name: BuildingsSides (2)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &180878
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 484758}
+  m_Layer: 0
+  m_Name: LitBuildings
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &187260
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 481380}
+  - 119: {fileID: 11923936}
+  m_Layer: 0
+  m_Name: BlobLightProjector (2)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &199502
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 406314}
+  - 119: {fileID: 11994608}
+  m_Layer: 0
+  m_Name: BlobLightProjector (4)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &406314
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 199502}
+  m_LocalRotation: {x: 0.7335623, y: 0.00000006479671, z: 0.00000011909032, w: 0.6796223}
+  m_LocalPosition: {x: -34.6, y: 46, z: -35.3}
+  m_LocalScale: {x: 0.21655375, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 484758}
+  m_RootOrder: 4
+--- !u!4 &443782
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 172434}
+  m_LocalRotation: {x: 0.9054422, y: 0, z: 0, w: -0.42446983}
+  m_LocalPosition: {x: 12.499995, y: -1.6799997, z: -29.6}
+  m_LocalScale: {x: 0.21655375, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 484758}
+  m_RootOrder: 1
+--- !u!4 &481380
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 187260}
+  m_LocalRotation: {x: 0.7335623, y: 0.00000006479671, z: 0.00000011909032, w: 0.6796223}
+  m_LocalPosition: {x: 34.2, y: 46, z: -35.3}
+  m_LocalScale: {x: 0.21655375, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 484758}
+  m_RootOrder: 2
+--- !u!4 &484758
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 180878}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 499824}
+  - {fileID: 443782}
+  - {fileID: 481380}
+  - {fileID: 488964}
+  - {fileID: 406314}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+--- !u!4 &488964
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100550}
+  m_LocalRotation: {x: 0.5316232, y: -0.46623698, z: 0.53162235, w: 0.46623772}
+  m_LocalPosition: {x: -41.5, y: 59.03, z: -29.5}
+  m_LocalScale: {x: 0.21655375, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 484758}
+  m_RootOrder: 3
+--- !u!4 &499824
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 159732}
+  m_LocalRotation: {x: 0.99822766, y: 0, z: 0, w: 0.05951112}
+  m_LocalPosition: {x: -9.18, y: 10.15, z: -21.9}
+  m_LocalScale: {x: 0.21655375, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 484758}
+  m_RootOrder: 0
+--- !u!119 &11923936
+Projector:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 187260}
+  m_Enabled: 1
+  serializedVersion: 2
+  m_NearClipPlane: 0.1
+  m_FarClipPlane: 37.65
+  m_FieldOfView: 64.1
+  m_AspectRatio: 1.07
+  m_Orthographic: 0
+  m_OrthographicSize: 1
+  m_Material: {fileID: 2100000, guid: c8c80c5b03f5c7e40b07eb2170e667e5, type: 2}
+  m_IgnoreLayers:
+    serializedVersion: 2
+    m_Bits: 131072
+--- !u!119 &11969128
+Projector:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 159732}
+  m_Enabled: 1
+  serializedVersion: 2
+  m_NearClipPlane: 0.1
+  m_FarClipPlane: 14.9
+  m_FieldOfView: 80.4
+  m_AspectRatio: 1.87
+  m_Orthographic: 0
+  m_OrthographicSize: 1
+  m_Material: {fileID: 2100000, guid: c8c80c5b03f5c7e40b07eb2170e667e5, type: 2}
+  m_IgnoreLayers:
+    serializedVersion: 2
+    m_Bits: 131072
+--- !u!119 &11983150
+Projector:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100550}
+  m_Enabled: 1
+  serializedVersion: 2
+  m_NearClipPlane: 0.1
+  m_FarClipPlane: 37.65
+  m_FieldOfView: 124.59
+  m_AspectRatio: 0.21
+  m_Orthographic: 0
+  m_OrthographicSize: 1
+  m_Material: {fileID: 2100000, guid: c8c80c5b03f5c7e40b07eb2170e667e5, type: 2}
+  m_IgnoreLayers:
+    serializedVersion: 2
+    m_Bits: 131072
+--- !u!119 &11993112
+Projector:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 172434}
+  m_Enabled: 1
+  serializedVersion: 2
+  m_NearClipPlane: 0.9
+  m_FarClipPlane: 26.1
+  m_FieldOfView: 75.58
+  m_AspectRatio: 1
+  m_Orthographic: 0
+  m_OrthographicSize: 1
+  m_Material: {fileID: 2100000, guid: c8c80c5b03f5c7e40b07eb2170e667e5, type: 2}
+  m_IgnoreLayers:
+    serializedVersion: 2
+    m_Bits: 131072
+--- !u!119 &11994608
+Projector:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 199502}
+  m_Enabled: 1
+  serializedVersion: 2
+  m_NearClipPlane: 0.1
+  m_FarClipPlane: 37.65
+  m_FieldOfView: 64.1
+  m_AspectRatio: 1.07
+  m_Orthographic: 0
+  m_OrthographicSize: 1
+  m_Material: {fileID: 2100000, guid: c8c80c5b03f5c7e40b07eb2170e667e5, type: 2}
+  m_IgnoreLayers:
+    serializedVersion: 2
+    m_Bits: 131072
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 180878}
+  m_IsPrefabParent: 1

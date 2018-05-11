@@ -1,0 +1,217 @@
+fileFormatVersion: 2
+guid: 43b7687796faac74d9ede477a450dc9d
+timeCreated: 1455565982
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: Red Pin
+    21300002: Yellow Pin
+    21300004: Green Pin
+    21300006: Backhoe
+    21300008: Digger
+    21300010: Bulldozer
+    21300012: Uber Pin
+    21300014: Red Bike
+    21300016: Yellow Bike
+    21300018: Green Bike
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 1024
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: Red Pin
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 126
+        width: 152
+        height: 175
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -76, y: 87.5}
+        - {x: -76, y: -87.5}
+        - {x: 76, y: -87.5}
+        - {x: 76, y: 87.5}
+    - name: Yellow Pin
+      rect:
+        serializedVersion: 2
+        x: 359
+        y: 141
+        width: 143
+        height: 166
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -71.5, y: 83}
+        - {x: -71.5, y: -83}
+        - {x: 71.5, y: -83}
+        - {x: 71.5, y: 83}
+    - name: Green Pin
+      rect:
+        serializedVersion: 2
+        x: 626
+        y: 126
+        width: 146
+        height: 172
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -73, y: 86}
+        - {x: -73, y: -86}
+        - {x: 73, y: -86}
+        - {x: 73, y: 86}
+    - name: Backhoe
+      rect:
+        serializedVersion: 2
+        x: 596
+        y: 831
+        width: 153
+        height: 170
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -76.5, y: 85}
+        - {x: -76.5, y: -85}
+        - {x: 76.5, y: -85}
+        - {x: 76.5, y: 85}
+    - name: Digger
+      rect:
+        serializedVersion: 2
+        x: 323
+        y: 836
+        width: 163
+        height: 172
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -81.5, y: 86}
+        - {x: -81.5, y: -86}
+        - {x: 81.5, y: -86}
+        - {x: 81.5, y: 86}
+    - name: Bulldozer
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 836
+        width: 152
+        height: 163
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -76, y: 81.5}
+        - {x: -76, y: -81.5}
+        - {x: 76, y: -81.5}
+        - {x: 76, y: 81.5}
+    - name: Uber Pin
+      rect:
+        serializedVersion: 2
+        x: 898
+        y: 802
+        width: 103
+        height: 173
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -51.5, y: 86.5}
+        - {x: -51.5, y: -86.5}
+        - {x: 51.5, y: -86.5}
+        - {x: 51.5, y: 86.5}
+    - name: Red Bike
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 469
+        width: 147
+        height: 174
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -73.5, y: 87}
+        - {x: -73.5, y: -87}
+        - {x: 73.5, y: -87}
+        - {x: 73.5, y: 87}
+    - name: Yellow Bike
+      rect:
+        serializedVersion: 2
+        x: 329
+        y: 482
+        width: 152
+        height: 172
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -76, y: 86}
+        - {x: -76, y: -86}
+        - {x: 76, y: -86}
+        - {x: 76, y: 86}
+    - name: Green Bike
+      rect:
+        serializedVersion: 2
+        x: 596
+        y: 469
+        width: 158
+        height: 178
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -79, y: 89}
+        - {x: -79, y: -89}
+        - {x: 79, y: -89}
+        - {x: 79, y: 89}
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

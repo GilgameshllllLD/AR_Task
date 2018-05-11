@@ -1,0 +1,123 @@
+fileFormatVersion: 2
+guid: 8f239b96776ae6f4fb25e5938c3e0169
+timeCreated: 1456442880
+licenseType: Pro
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: Button
+    21300002: BG
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -3
+  maxTextureSize: 512
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: Button
+      rect:
+        serializedVersion: 2
+        x: 115
+        y: 98
+        width: 399
+        height: 99
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -130.92856, y: 33.4}
+        - {x: -130.92856, y: -32.6}
+        - {x: 132.07144, y: -32.6}
+        - {x: 132.07144, y: 33.4}
+    - name: BG
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 630
+        height: 779
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 186, y: -254}
+        - {x: 191, y: -252}
+        - {x: 201, y: -241}
+        - {x: 201, y: -240}
+        - {x: 205, y: -235}
+        - {x: 205, y: -233}
+        - {x: 207, y: -230}
+        - {x: 207, y: 230}
+        - {x: 205, y: 233}
+        - {x: 205, y: 235}
+        - {x: 203, y: 238}
+        - {x: 201, y: 242}
+        - {x: 190, y: 252}
+        - {x: 188, y: 252}
+        - {x: 186, y: 254}
+        - {x: 184, y: 254}
+        - {x: 182, y: 256}
+        - {x: -182, y: 256}
+        - {x: -184, y: 254}
+        - {x: -186, y: 254}
+        - {x: -188, y: 252}
+        - {x: -190, y: 252}
+        - {x: -201, y: 241}
+        - {x: -201, y: 240}
+        - {x: -205, y: 235}
+        - {x: -205, y: 233}
+        - {x: -207, y: 230}
+        - {x: -207, y: -230}
+        - {x: -205, y: -233}
+        - {x: -205, y: -235}
+        - {x: -203, y: -237}
+        - {x: -203, y: -239}
+        - {x: -191, y: -252}
+        - {x: -186, y: -254}
+        - {x: -184, y: -254}
+        - {x: -182, y: -256}
+        - {x: 182, y: -256}
+        - {x: 184, y: -254}
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
